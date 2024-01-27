@@ -1,0 +1,36 @@
+:root {
+  --buttonTextColor: White;
+  --buttonOnHoverTextColor:white;
+  --buttonOnHoverBackgroundColor:#CE7777;
+  --buttonBackgroundColor:#2B3A55;
+  --disabledButtonTextColor:#fff;
+  --disabledButtonColor:grey;
+  --toastColor:red;
+}
+
+.not_found_page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.go_to_home_page_btn{
+  cursor: pointer;
+  background-color: var(--buttonBackgroundColor);
+  color: var(--buttonTextColor);
+  border-color: var(--buttonTextColor);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
+.go_to_home_page_btn:hover{
+  background-color: var(--buttonOnHoverBackgroundColor);
+  color: var(--buttonOnHoverTextColor);
+  border-color: var(--buttonOnHoverBackgroundColor);
+}
+.go_to_home_page_container{
+  text-align: center;
+}
+.not_found_text{
+  text-align: center;
+}

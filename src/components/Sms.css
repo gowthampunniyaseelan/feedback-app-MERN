@@ -1,0 +1,183 @@
+:root {
+  --buttonTextColor: White;
+  --buttonOnHoverTextColor:white;
+  --buttonOnHoverBackgroundColor:#CE7777;
+  --buttonBackgroundColor:#2B3A55;
+}
+/* .template_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 100px;
+/* } */
+/* .template{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}  */
+.template_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 280px;
+  margin-left: 230px;
+}
+
+.template {
+  width: 40%;
+  display: inline-block;
+  box-sizing: border-box;
+  /* padding-left: 5em; */
+  margin-left: 60px;
+}
+
+.sms_template{
+  margin-top: 5.3em;
+}
+.template div{
+  padding: 1em;
+}
+
+.sms_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox{
+  /* width: 20px;
+  height: 20px; */
+  margin: 0.5em;
+}
+.sms_container{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 3em;
+  margin-left: 19em;
+  margin-bottom: 3em;
+  width: 68%;
+}
+.send_btn_container{
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  text-align: center;
+  margin-bottom: 1em;
+/* width: 67%; */
+}
+.send_btn{
+  border: none;
+  background-color: var(--buttonBackgroundColor);
+  color: var(--buttonTextColor);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.send_btn:hover{
+  background-color: var(--buttonOnHoverBackgroundColor);
+color: var(--buttonOnHoverTextColor);
+}
+.user_sms{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.user_sms label{
+  padding: 20px;
+}
+.sms_footer_name{
+  font-size: 12px;
+}
+.sms_checkbox{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.individual_sms{
+  float: left;
+  /* margin-left: 100px; */
+}
+.individual_sms>p{
+  margin-left: 10px;
+margin-right: 100px;
+}
+.individual_sms>input{
+margin-right: 15px
+}
+.user_sms>input{
+  float: left;
+margin-top: 7px;
+margin-left: 312px;
+}
+.bulk_sms{
+display: flex;
+float: right;
+margin-right: 200px;
+}
+.bulk_sms>p{
+  margin-top: 10px;
+ margin-left: 10px;
+}
+.sms_footer{
+  text-align: center;
+}
+/* .sms_footer{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  width: 100vw;
+} */
+
+/* .sms_footer_name {
+  margin-bottom: 20px;
+} */
+input[type=radio]{
+  cursor: pointer;
+}
+.sms_count_container{
+  text-align: center;
+  margin: 1em;
+}
+.update_sms_count{
+  border: none;
+  background-color: var(--buttonBackgroundColor);
+  color: var(--buttonTextColor);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.update_sms_count:hover{
+  background-color: var(--buttonOnHoverBackgroundColor);
+  color: var(--buttonOnHoverTextColor);
+}
+.sms_input1{
+  width: 100% !important;
+}
+.sms_input2{
+  margin-top: 0.5em;
+  /* display: none; */
+  width: 100% !important;
+}
+.progress_container{
+  text-align: center;
+}
+.sms_count{
+  float: right;
+  margin-top: 20px;
+  margin-right: -212px;
+}
+#bulkSmsCount{
+  color: #CE7777;
+}
+.variable_container{
+  float: left;
+  margin-left: 40em;
+  /* text-align: center; */
+  /* margin-top: 3em; */
+  margin-bottom: 2em;
+}
+.individual_sms input{
+ margin-bottom: 1em;
+}

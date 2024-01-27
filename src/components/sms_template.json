@@ -1,0 +1,24 @@
+[
+  
+{
+ "id":"text1Value",
+ "value":"Dear {#var#} , Your feedback is truly appreciated, and we want to extend our heartfelt gratitude for your overwhelming response. It brings us immense joy to know that our services have met your expectations. We're committed to consistently delivering exceptional experiences. We eagerly anticipate your return and the opportunity to serve you once more. Thank you for choosing us. Thanks Sree Baalaaji Bhavan https://www.sreebaalaajibhavan.com/",
+ "sender_id" : "SREEXP",
+ "message" : "161646",
+ "rating":"G"
+},
+{
+  "id":"text2Value",
+  "value":"Dear {#var#} ,We value your feedback and are disappointed to learn about your average experience with us. We would greatly appreciate the chance to address your concerns by welcoming you back. Our aim is to ensure your next visit exceeds your expectations.ThanksSree Baalaaji Bhavanhttps://www.sreebaalaajibhavan.com/",
+  "sender_id" : "SREEXP",
+  "message" : "161647",
+  "rating":"N"
+},
+{
+  "id":"text3Value",
+  "value":"Dear {#var#} ,Happy {#var#} .Thanks Sree Baalaaji Bhavan https://www.sreebaalaajibhavan.com/",
+  "sender_id" : "SREEXP",
+  "message" : "161647",
+  "rating":"N"
+}
+]

@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --buttonTextColor: White;
+  --buttonOnHoverTextColor:white;
+  --buttonOnHoverBackgroundColor:#CE7777;
+  --buttonBackgroundColor:#2B3A55;
+  --disabledButtonTextColor:#fff;
+  --disabledButtonColor:grey;
+  --toastColor:red;
+}
+
+.logo {
+  margin-right: 100px;
+}
+.feedback_toast{
+  color : var(--toastColor) !important;
+  display: none;
+  margin: 1em;
+}
+.radio{
+  cursor: pointer;
+  color: var(--labelTextColor);
+
+}
+.text_input,.date_input
+{
+  color: var(--labelTextColor);
+
+}
+.checkbox_container {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--labelTextColor);
+
+}
+.button {
+  padding: 10px 20px;
+  /* float: right; 
+  margin-right: 100px;
+  margin-top: -50px; */
+  /* margin-left: 36em;
+  margin-bottom: 1em; */
+  cursor: pointer;
+  background-color: var(--buttonBackgroundColor);
+  color: var(--buttonTextColor);
+  border: none;
+  border-color: var(--buttonTextColor);
+}
+.button:hover {
+  background-color: var(--buttonOnHoverBackgroundColor);
+  color: var(--buttonOnHoverTextColor);
+  border-color: var(--buttonOnHoverBackgroundColor);
+}
+
+.title {
+  color: var(--labelTextColor);
+  /* float: left; */
+text-align: center;
+margin-top: 0.5em;
+
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--labelTextColor);
+  /* width: 70%; */
+/* margin-left: 10em; */
+text-align: center;
+}
+.feedback_date{
+  float: right;
+  margin-right: 0.5em;
+}
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  color: var(--labelTextColor);
+  margin-top: 50px;
+}
+.header span {
+  margin-top: 40px;
+  color: var(--labelTextColor);
+
+}
+.heading_subtitle {
+  text-align: center;
+  color: var(--labelTextColor);
+
+}
+.food_container {
+  display: flex;
+  /* justify-content: space-evenly; */
+  color: var(--labelTextColor);
+  width: 80%;
+  /* margin: 0 auto; */
+  margin-left: 14em;
+}
+.food_container input{
+margin-left: 20px;
+}
+.food_container label{
+  margin-left: 5px;
+  }
+.input_box_container div {
+  margin: 20px;
+  color: var(--labelTextColor);
+}
+.input_box_container{
+  width: 70%;
+  /* margin: 0 auto; */
+  margin-left: 13em;
+}
+.form{
+    display: flex;
+    align-items: center;
+  color: var(--labelTextColor);
+
+}
+.textarea{
+  color: var(--labelTextColor);
+}
+.form label{
+  margin-right: 20px;
+  color: var(--labelTextColor);
+
+}
+.comment_box label {
+  margin-top: -50px;
+  color: var(--labelTextColor);
+
+}
+.table_head{
+  width: 50px;
+  color: var(--labelTextColor);
+text-align: center;
+}
+
+.feedback_table,
+.table_data,
+.table_head {
+  border: 1px solid;
+  color: var(--labelTextColor);
+
+}
+
+.feedback_table {
+  width: 80%;
+  border-collapse: collapse;
+  color: var(--labelTextColor);
+  margin-left: 14em;
+
+}
+
+.table_data {
+  text-align: center;
+  color: var(--labelTextColor);
+
+}
+.feedback_btn_container{
+  text-align: center;
+margin-bottom: 1em
+}
+.blur{
+  padding: 10px 20px;
+  /* float: right; 
+  margin-right: 100px;
+  margin-top: -50px; */
+  /* text-align: center; */
+  /* margin-left: 36em;
+  margin-bottom: 1em; */
+  background-color: var(--disabledButtonColor);
+  border: 1px solid var(--disabledButtonColor);
+  color: var(--disabledButtonTextColor);
+  cursor: not-allowed;
+}
+.blur:hover{
+  background-color: var(--disabledButtonColor);
+  border: 1px solid var(--disabledButtonColor);
+  color: var(--disabledButtonTextColor);
+}
+.search_button{
+  cursor: pointer;
+  background-color: var(--buttonBackgroundColor) !important;
+  color: var(--buttonTextColor) !important;
+  margin-left: 1em;
+  
+}
+.search_button:hover {
+  background-color: var(--buttonOnHoverBackgroundColor) !important;
+  color: var(--buttonOnHoverTextColor) !important;
+  border-color: var(--buttonOnHoverBackgroundColor) !important;
+}
+.feedback_footer{
+  width: 100%;
+}
+.feedback_footer_name{
+  text-align: center;
+
+}
+
+.text_input{
+  width: 50% !important;
+}
+
+.mobile_number_container{
+  display: flex !important;
+  margin-left: 0px !important;
+}
+.wish_textarea_container{
+  width: 200px;
+}

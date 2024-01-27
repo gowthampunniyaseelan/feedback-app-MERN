@@ -1,0 +1,62 @@
+
+:root {
+  --buttonTextColor: White;
+  --buttonOnHoverTextColor:white;
+  --buttonOnHoverBackgroundColor:#CE7777;
+  --buttonBackgroundColor:#2B3A55;
+  --disabledButtonTextColor:#fff;
+  --disabledButtonColor:grey;
+  --toastColor:red;
+}.login_container{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2em
+}
+.login_form { 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  text-align: center;
+  }
+.login_form h3 {
+  text-align: center;
+  padding: 1em;
+}
+.input_username{
+  padding: 1em;
+}
+.input_password{
+  padding: 1em;
+}
+.login_btn_container{
+  text-align: center;
+  padding: 1em;
+}
+.login_btn{
+background-color: var(--buttonBackgroundColor);
+color: var(--buttonTextColor);
+padding: 0.4em 1em;
+border: none;
+border-radius:5px;
+}
+.login_btn:hover{
+  background-color: var(--buttonOnHoverBackgroundColor);
+  color: var(--buttonOnHoverTextColor);
+}
+.invalid_password{
+  color: var(--toastColor);
+  display: none;
+}
+.invalid_username{
+  color: var(--toastColor);
+  display: none;
+}
+.header_logo{
+  width: 10%;
+  height: 5%;
+}
+.header_logo_container{
+  text-align: center;
+  padding: 1em;
+}

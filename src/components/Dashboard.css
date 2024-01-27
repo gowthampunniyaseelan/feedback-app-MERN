@@ -1,0 +1,79 @@
+.review_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14em;
+  margin-top: 1em;
+  /* margin-left: 15em; */
+  /* border: 1px solid #000; */
+  /* width: 80%; */
+}
+.overall_review{
+  display: flex;
+}
+.overall_review h5{
+  margin-left: 3em;
+}
+.dashboard_container{
+  margin-top:5em;
+}
+.review_container div{
+  margin-top: 1.5em;
+}
+.current_month{
+  display: flex;
+  margin-top: 0.7em;
+  margin-left: 12em;
+}
+.overall{
+  display: flex;
+  margin-top: 0.7em;
+  margin-left: 12em;
+}
+.visiting_select label{
+margin-right: 0.2em;
+}
+.dashboard_footer{
+  width: 100%;
+  margin-top: 20px;
+
+}
+.dashboard_footer_name{
+  text-align: center;
+}
+.overall_review h3{
+  margin-left: 120px;
+}
+.dashboard_heading{
+  margin-left: 230px;
+  padding: 10px;
+  text-align: center;
+}
+.visiting_select>select{
+  padding: 0.2em 1em;
+}
+.visiting_select{
+  /* margin-left:28.5em; */
+  /* text-align: center; */
+  margin-left: 17.5em;
+  margin-top: 3em;
+}
+.visiting_container{
+  /* border: 1px solid #000; */
+}
+
+.no_chart_available{
+  text-align: center;
+  margin: 1em;
+}
+.dog_saying_no_data{
+  text-align: center;
+}
+.dog_saying_no_data_for_overall{
+  text-align: center;
+}
+.no_chart_container{
+  margin-right: 5em;
+  margin-top: 5em;
+  margin-left: 2em;
+}
